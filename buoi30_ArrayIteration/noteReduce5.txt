@@ -1,0 +1,14 @@
+Note that the function takes 4 arguments:
+
+The total (the initial value / previously returned value)
+The item value
+The item index
+The array itself
+The example above does not use the index and array parameters. It can be rewritten to:
+
+const numbers = [45, 4, 9, 16, 25];
+let sum = numbers.reduce(myFunction);
+
+function myFunction(total, value) {
+  return total + value;
+}

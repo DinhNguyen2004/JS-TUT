@@ -1,0 +1,31 @@
+Note that the function takes 3 arguments:
+
+The item value
+The item index
+The array itself
+The example above uses only the value parameter. The example can be rewritten to:
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+<h2>The forEach() Method</h2>
+
+<p>Call a function once for each array element:</p>
+
+<p id="demo"></p>
+
+<script>
+const numbers = [45, 4, 9, 16, 25];
+
+let txt = "";
+numbers.forEach(myFunction);
+document.getElementById("demo").innerHTML = txt;
+
+function myFunction(value) {
+  txt += value + "<br>"; 
+}
+</script>
+
+</body>
+</html>

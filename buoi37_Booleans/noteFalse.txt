@@ -1,0 +1,7 @@
+The Boolean value of 0 (zero) is false
+The Boolean value of -0 (minus zero) is false:
+The Boolean value of "" (empty string) is false:
+The Boolean value of undefined is false:
+The Boolean value of null is false:
+The Boolean value of false is (you guessed it) false:
+The Boolean value of NaN is false:

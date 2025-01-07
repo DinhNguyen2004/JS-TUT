@@ -1,0 +1,13 @@
+*External JavaScript Advantages
+Placing scripts in external files has some advantages:
+
+It separates HTML and code
+It makes HTML and JavaScript easier to read and maintain
+Cached JavaScript files can speed up page loads
+
+*External References
+An external script can be referenced in 3 different ways:
+
+With a full URL (a full web address) -> <script src="https://www.w3schools.com/js/myScript.js"></script>
+With a file path (like /js/) -> <script src="/js/myScript.js"></script>
+Without any  -> <script src="myScript.js"></script>

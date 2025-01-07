@@ -1,0 +1,4 @@
+Note
+If a regular expression does not include the g modifier (global search), match() will return only the first match in the string.
+
+Read more about regular expressions in the chapter JS RegExp.

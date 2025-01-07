@@ -1,0 +1,8 @@
+Did You Know?
+Use object literals {} instead of new Object().
+
+Use array literals [] instead of new Array().
+
+Use pattern literals /()/ instead of new RegExp().
+
+Use function expressions () {} instead of new Function().

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Objects</h1>
+<h2>Display Properties</h2>
+
+<p id="demo"></p>
+
+<script>
+// Create an Object
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+// Build a Text
+let text = "";
+for (let x in person) {
+    text += person[x] + " ";
+};
+
+// Display the Text
+document.getElementById("demo").innerHTML = text;
+</script>
+<!-- Note:
+You must use person[x] in the loop.
+
+person.x will not work (Because x is the loop variable). -->
+</body>
+</html>

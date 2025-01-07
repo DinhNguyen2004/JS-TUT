@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Objects</h1>
+<h2>Display Properties</h2>
+
+<p id="demo"></p>
+
+<script>
+// Create an Object
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+// Create an Array
+const myArray = Object.values(person);
+
+// Display the Text
+document.getElementById("demo").innerHTML = myArray;
+</script>
+<!-- Note:
+You must use person[x] in the loop.
+
+person.x will not work (Because x is the loop variable). -->
+</body>
+</html>

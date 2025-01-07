@@ -1,0 +1,8 @@
+JavaScript Array map()
+The map() method creates a new array by performing a function on each array element.
+
+The map() method does not execute the function for array elements without values.
+
+The map() method does not change the original array.
+
+This example multiplies each array value by 2:
