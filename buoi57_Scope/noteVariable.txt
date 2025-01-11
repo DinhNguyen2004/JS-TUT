@@ -1,0 +1,6 @@
+The Lifetime of JavaScript Variables
+The lifetime of a JavaScript variable starts when it is declared.
+
+Function (local) variables are deleted when the function is completed.
+
+In a web browser, global variables are deleted when you close the browser window (or tab).

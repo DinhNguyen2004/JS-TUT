@@ -1,0 +1,4 @@
+Did You Notice?
+Regular expression arguments (instead of string arguments) can be used in the methods above.
+Regular expressions can make your search much more powerful (case insensitive for example).
+

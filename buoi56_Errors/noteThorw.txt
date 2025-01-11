@@ -1,0 +1,1 @@
+If you use throw together with try and catch, you can control program flow and generate custom error messages.
